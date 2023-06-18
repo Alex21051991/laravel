@@ -1,0 +1,78 @@
+.header {
+    border: 1px solid #4f4f47;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    background-color: rgb(173, 188, 170);
+}
+.company {
+    display: block;
+    font-size: 20px;
+}
+.search {
+    display:flex;
+    flex-direction: row;
+}
+img {
+    width: 15px;
+    height: 15px;
+}
+
+
+.menu {
+    border: 1px solid #7e7e40;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    min-width: 30px;
+    height: auto;
+    flex-flow: row wrap;
+}
+.menu li:first-child {
+    /*border-top-right-radius: 10px;*/
+    border-top-left-radius: 10px;
+}
+.menu li:last-child {
+    border-bottom-right-radius: 10px;
+    /*border-bottom-left-radius: 10px;*/
+}
+.menu li:nth-child(2n) {
+    background-color: #b3afb1;
+}
+.menu li {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    list-style-type: none;
+    border: 1px solid rgb(218, 218, 247);
+    text-align: center;
+}
+.menu li a:hover {
+    color: #655b5b;
+}
+.menu li a:active {
+    color: #4f7088;
+}
+/*Можно использовать before*/
+.menu li:hover:after {
+    content: " >>";
+    color: #655b5b;
+}
+
+
+.content {
+    display: block;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height: 60px;
+    background-color: #c2bfca;
+    font-size: 20px;
+    color: yellow;
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>bef52059-da66-4969-b85b-aea67f44bdcf.TABLE:geek.basket</OriginalElement>
+  <nodes>
+    <node x="-254.0" y="-38.0">bef52059-da66-4969-b85b-aea67f44bdcf.TABLE:geek.users</node>
+    <node x="311.0" y="84.0">bef52059-da66-4969-b85b-aea67f44bdcf.TABLE:geek.categories</node>
+    <node x="-18.5" y="-104.0">bef52059-da66-4969-b85b-aea67f44bdcf.TABLE:geek.news</node>
+    <node x="311.0" y="-57.0">bef52059-da66-4969-b85b-aea67f44bdcf.TABLE:geek.source</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bef52059-da66-4969-b85b-aea67f44bdcf.TABLE:geek.news" target="bef52059-da66-4969-b85b-aea67f44bdcf.TABLE:geek.users" relationship="REFERENCES">
+      <point x="-55.33333333333334" y="-104.5" />
+      <point x="9.166666666666657" y="9.0" />
+      <point x="-187.0" y="9.0" />
+      <point x="0.0" y="93.5" />
+    </edge>
+    <edge source="bef52059-da66-4969-b85b-aea67f44bdcf.TABLE:geek.news" target="bef52059-da66-4969-b85b-aea67f44bdcf.TABLE:geek.categories" relationship="REFERENCES">
+      <point x="55.333333333333314" y="-104.5" />
+      <point x="119.83333333333331" y="-38.5" />
+      <point x="185.25" y="-38.5" />
+      <point x="185.25" y="122.5" />
+      <point x="368.0" y="122.5" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="bef52059-da66-4969-b85b-aea67f44bdcf.TABLE:geek.news" target="bef52059-da66-4969-b85b-aea67f44bdcf.TABLE:geek.source" relationship="REFERENCES">
+      <point x="0.0" y="-104.5" />
+      <point x="64.5" y="-13.5" />
+      <point x="357.5" y="-13.5" />
+      <point x="0.0" y="38.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.4500000000000002" showDependencies="false" x="44.482758620689594" y="86.17241379310343" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+

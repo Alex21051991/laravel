@@ -1,0 +1,16 @@
+{
+    "News has been updated": "Новось была успешно обновлена",
+    "News has not been updated": "Новость не удалось обновить",
+    "News has been created": "Новость была добавлена",
+    "News has not been created": "Новость не была добавлена",
+
+    "order_info has been update": "Запись с заказом была успешно обновлена",
+    "order_info has not update": "Запись с заказом не удалось обновить",
+    "order_info has been created": "Запись с заказом была добавлена",
+    "order_info has not create": "Запись с заказом не удалось добавить",
+
+    "feedback has been created":  "Запись обратной связи была успешно создана",
+    "feedback has not create": "Запись обратной связи не удалось создана",
+    "feedback has been update": "Запись обратной связи была успешно обновлена",
+    "feedback has not update": "Запись обратной связи не удалось обновить"
+}

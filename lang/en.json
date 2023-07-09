@@ -1,0 +1,16 @@
+{
+    "News has been updated": "News has been updated",
+    "News has not been updated": "News has not been updated",
+    "News has been created": "News has been created",
+    "News has not been created": "News has not been created",
+
+    "order_info has been update": "order_info has been update",
+    "order_info has not update": "order_info has not update",
+    "order_info has been created": "order_info has been created",
+    "order_info has not create": "order_info has not create",
+
+    "feedback has been created":  "feedback has been created",
+    "feedback has not create": "feedback has not create",
+    "feedback has been update": "feedback has been update",
+    "feedback has not update": "feedback has not update"
+}
